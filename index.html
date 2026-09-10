@@ -1,0 +1,51 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#e7d8c1" />
+    <title>山河营造 · 体素古建</title>
+  </head>
+  <body>
+    <div id="scene" aria-label="可交互的三维中国古典建筑群"></div>
+
+    <header class="heading">
+      <div class="eyebrow"><span></span> VOXEL ARCHITECTURE / 001</div>
+      <h1>山河<span>营造</span></h1>
+      <p>一轴六殿，飞檐入云。</p>
+      <div class="tags">
+        <span>中轴院落</span>
+        <span>琉璃飞檐</span>
+        <span>体素构筑</span>
+      </div>
+    </header>
+
+    <aside class="status">
+      <span class="live-dot"></span>
+      <span id="time-label">日暮 · 暖阳</span>
+      <span class="divider">/</span>
+      <span id="performance">正在构筑</span>
+    </aside>
+
+    <div class="legend">
+      <span class="legend-line"></span>
+      <div>
+        <strong>承天门 → 中庭 → 太和殿</strong>
+        <small>左文右武 · 钟鼓相望</small>
+      </div>
+    </div>
+
+    <footer class="bottom">
+      <nav class="toolbar" aria-label="场景控制">
+        <button id="home" title="恢复全景，快捷键 R">⌂ <span>全景</span></button>
+        <button id="axis">↟ <span>中轴</span></button>
+        <button id="orbit" aria-pressed="false">↻ <span>环游</span></button>
+        <i></i>
+        <button id="light">☀ <span>切换晨光</span></button>
+      </nav>
+      <p class="hint">拖动旋转 · 滚轮缩放 · 右键平移</p>
+    </footer>
+
+    <script type="module" src="/src/main.js"></script>
+  </body>
+</html>
